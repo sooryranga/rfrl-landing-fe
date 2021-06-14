@@ -8,6 +8,10 @@ const routes = [
     path: '/',
     component: () => import('@/components/Main.vue'),
   },
+  {
+    path: '/want-referral',
+    component: () => import('@/components/StudentLandingPage.vue'),
+  },
 ];
 
 const router = new VueRouter({
