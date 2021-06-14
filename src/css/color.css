@@ -1,4 +1,18 @@
 :root {
+  /* CSS HEX */
+  --dark-sienna: #461220ff;
+  --olive-green: #bbbe64ff;
+  --mint-cream: #f2f7f2ff;
+  --teal-blue: #3b7080ff;
+
+  /* CSS HSL */
+  --dark-sienna: hsla(344, 59%, 17%, 1);
+  --olive-green: hsla(62, 41%, 57%, 1);
+  --mint-cream: hsla(120, 24%, 96%, 1);
+  --khaki-web: hsla(29, 21%, 90%, 1);
+  --teal-blue: hsla(194, 37%, 37%, 1);
+
+
   /* Basic Colors */
   --clr-gray-1:#282828;
   --clr-gray-2:#414141;
@@ -11,10 +25,10 @@
   --clr-gray-9:#fcfcfc;
 
 
-  --clr-primary-darkest: #3400A3;
-  --clr-primary-darker:#4100CC;
-  --clr-primary-dark:#4E00F5;
-  --clr-primary: #651fff;
+  --clr-primary-darkest: #1c070d;
+  --clr-primary-darker:#2A0B13;
+  --clr-primary-dark:#380E1A;
+  --clr-primary: #461220;
   --clr-primary-light: #7C3FFF;
   --clr-primary-lighter: #915FFF;
   --clr-primary-lightest: #A77FFF;
