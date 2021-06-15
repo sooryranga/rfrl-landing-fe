@@ -5,7 +5,7 @@
         align-items-center p-1
         text-center
       ">
-        <div class="container-lg nav-container">
+        <div class="container-xl nav-container">
           <div id="logo">
             <router-link to="/" id="logo-text">rfrl</router-link>
           </div>

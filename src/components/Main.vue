@@ -1,23 +1,21 @@
 <template>
   <div class="scrolable-full h-100 w-100">
-    <div class="row w-100" id="hero-section">
-      <div class="col h-100 flex-container">
-        <div class="mx-auto my-auto">
-          <h1 id="title" class="mx-auto my-auto">Land your dream job through referrals</h1>
-          <div class="row-flex">
-            <input type="email" name="fname">
-          </div>
-        </div>
-      </div>
-      <div class="col h-100">
-        <img src="@/assets/pexels-cottonbro-4827576.jpg" class="h-100 w-100" style="object-fit: cover;"/>
-      </div>
+    <div class="container-xl flex-container column-flex">
+      <hero-section/>
+      <what-we-offer/>
+      <tutor-value/>
+      <student-value/>
     </div>
   </div>
 </template>
 
 <script>
+import HeroSection from '@/components/HeroSection.vue';
+import TutorValue from './TutorValue.vue';
+import WhatWeOffer from './WhatWeOffer.vue';
+import StudentValue from './StudentValue.vue';
 export default {
+  components: {HeroSection, TutorValue, WhatWeOffer, StudentValue},
   data() {
     return {
       mainContainer: {
@@ -43,32 +41,13 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 .scrolable-full{
   height: 100%;
   width: 100%;
   overflow-y: scroll;
   color: var(--clr-gray-4);
 }
-#hero-section{
-  background-color: var(--khaki-web);
-  max-width: 95rem;
-  margin-left: auto;
-  margin-right: auto;
-  height: 40rem;
-}
-
-#title {
-  color: var(--clr-primary);
-  max-width: 24ch;
-}
-
-.logo{
-  font-family: 'Orbitron', sans-serif;
-  color: var(--clr-gray-2);
-  font-size: 4rem;
-}
-
 
 .flex-container{
   display:flex;
