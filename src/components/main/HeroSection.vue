@@ -26,7 +26,7 @@ export default {
   background-color: var(--khaki-web);
   margin-left: auto;
   margin-right: auto;
-  height: 33rem;
+  height: 40rem;
 }
 
 #title {

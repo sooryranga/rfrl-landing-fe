@@ -6,7 +6,7 @@ Vue.use(VueRouter);
 const routes = [
   {
     path: '/',
-    component: () => import('@/components/Main.vue'),
+    component: () => import('@/components/main/Main.vue'),
   },
   {
     path: '/want-referral',
