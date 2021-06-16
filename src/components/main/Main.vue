@@ -1,21 +1,22 @@
 <template>
-  <div class="scrolable-full h-100 w-100">
-    <div class="container-xl flex-container column-flex">
-      <hero-section/>
-      <what-we-offer/>
-      <tutor-value/>
-      <student-value/>
-    </div>
+  <div class="container-xl flex-container column-flex">
+    <hero-section/>
+    <what-we-offer/>
+    <tutor-value/>
+    <student-value/>
+    <conclusion/>
   </div>
 </template>
 
 <script>
-import HeroSection from '@/components/HeroSection.vue';
-import TutorValue from './TutorValue.vue';
-import WhatWeOffer from './WhatWeOffer.vue';
-import StudentValue from './StudentValue.vue';
+import HeroSection from '@/components/main/HeroSection.vue';
+import TutorValue from '@/components/main/TutorValue.vue';
+import WhatWeOffer from '@/components/main/WhatWeOffer.vue';
+import StudentValue from '@/components/main/StudentValue.vue';
+import Conclusion from '@/components/main/Conclusion.vue';
+
 export default {
-  components: {HeroSection, TutorValue, WhatWeOffer, StudentValue},
+  components: {HeroSection, TutorValue, WhatWeOffer, StudentValue, Conclusion},
   data() {
     return {
       mainContainer: {
