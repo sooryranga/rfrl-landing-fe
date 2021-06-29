@@ -1,7 +1,7 @@
 <template>
-  <div class="row w-100" id="section">
-    <h2 id="section-title" class="section-padding">Why should you refer</h2>
-    <p id="section-description" class="section-padding">
+  <div class="w-100" id="section">
+    <h2 id="section-title">Why should you refer</h2>
+    <p id="section-description">
       You can earn compensation and provide value to your company
     </p>
     <div class="wrapper-grid">
@@ -63,12 +63,14 @@ export default {
   margin-bottom: 1rem;
   color: white;
   max-width: 26ch;
-  margin-left: 1rem;
+  margin-left: 2rem;
+  font-size: 2.4rem;
+  font-weight: 400;
 }
 
 #section-description{
   color: white;
-  margin-left: 1rem;
+  margin-left: 2rem;
 }
 
 .section-padding{
