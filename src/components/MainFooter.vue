@@ -30,7 +30,7 @@ export default {
 
 <style scoped>
 #footer{
-  background-color: var(--clr-primary-dark);
+  background-color: var(--clr-primary);
   display:flex;
   flex-direction: row;
   flex-wrap: nowrap;
