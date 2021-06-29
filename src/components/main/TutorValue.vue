@@ -61,13 +61,13 @@ export default {
 
 #section-title {
   margin-bottom: 1rem;
-  color: var(--clr-gray-9);
+  color: white;
   max-width: 26ch;
   margin-left: 1rem;
 }
 
 #section-description{
-  color: var(--clr-gray-7);
+  color: white;
   margin-left: 1rem;
 }
 

@@ -44,7 +44,9 @@
 #section-title {
   margin-left: 1rem;
   margin-bottom: 1rem;
-  color: var(--clr-gray-9);
+  font-size: 2.2rem;
+  font-weight: 400;
+  color: white;
   max-width: 26ch;
 }
 
