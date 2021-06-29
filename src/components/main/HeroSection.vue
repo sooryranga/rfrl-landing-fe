@@ -1,6 +1,6 @@
 <template>
-  <div class="row m-0 w-100" id="hero-section">
-    <div class="col h-100 flex-container">
+  <div class="m-0 w-100" id="hero-section">
+    <div class="h-100 flex-container flex-item p-4">
       <div class="my-auto">
         <h1 id="title" class="my-auto">Land your dream job through referrals</h1>
         <form class="form-inline" action="/action_page.php">
@@ -11,7 +11,7 @@
         </form>
       </div>
     </div>
-    <div class="col h-100">
+    <div class="flex-item h-100">
       <img src="@/assets/pexels-cottonbro-4827576.jpg" class="h-100 w-100" style="object-fit: cover;"/>
     </div>
   </div>
@@ -28,6 +28,9 @@ export default {
   margin-left: auto;
   margin-right: auto;
   height: 40rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 #title {
@@ -69,6 +72,10 @@ export default {
   padding-top:0.75rem;
   padding-bottom: 0.75rem;
   box-shadow:0 5px 15px 0 rgba(0,0,0,0.15);
+}
+
+.flex-item{
+  flex: 1 1 50%;
 }
 
 @media (max-width: 800px) {

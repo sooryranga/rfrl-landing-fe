@@ -1,5 +1,5 @@
 <template>
-  <div class="row w-100" id="section">
+  <div class="w-100" id="section">
     <h2 id="section-title">Want your dream job?</h2>
     <div class="row mt-4 mb-4">
       <div class="col">
@@ -20,8 +20,8 @@
     </div>
     <div class="row mb-4">
       <div class="col">
-        <div class="subsection flex-container">
-          <div class="my-auto">
+        <div class="subsection flex-container flex-end">
+          <div class="my-auto" style="text-align: right;">
             <h3 class="subsection-title">Review your skills</h3>
             <p class="subsection-description">
               You need to pass the interview to get the job. What better way to
@@ -84,5 +84,10 @@ export default {
 
 .feature-img{
   width: 100%;
+}
+
+.flex-end{
+  flex-flow: row nowrap;
+  justify-content:flex-end;
 }
 </style>

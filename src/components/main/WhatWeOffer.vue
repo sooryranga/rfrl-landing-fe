@@ -1,6 +1,9 @@
 <template>
-  <div class="row w-100" id="section">
-    <h2 id="section-title" class="section-padding">What do we offer</h2>
+  <div class="w-100" id="section">
+    <h2 id="section-title">What do we offer</h2>
+    <p id="section-description">
+      We match employees with their future co-workers
+    </p>
     <div class="w-100 flex-container">
       <div id="direct-messaging" class="feature">
         <div class="my-2 w-100">
@@ -37,21 +40,22 @@
 
 #section{
   background-color: var(--clr-primary);
-  padding-top: 6rem;
+  padding-top: 4rem;
   height: 30rem;
 }
 
 #section-title {
-  margin-left: 1rem;
-  margin-bottom: 1rem;
-  font-size: 2.2rem;
-  font-weight: 400;
   color: white;
   max-width: 26ch;
+  margin-left: 2rem;
+  font-size: 2.4rem;
+  font-weight: 400;
 }
 
-.section-padding{
-  padding-left: 20px;
+#section-description{
+  color: white;
+  margin-left: 2rem;
+  margin-bottom: 3rem;
 }
 
 .feature-img{
