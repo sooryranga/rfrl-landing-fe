@@ -29,8 +29,8 @@
         <div id="content" class="w-100">
           <router-view :key="routerViewKey"/>
         </div>
-        <main-footer/>
       </div>
+      <main-footer/>
     </div>
   </div>
 </template>

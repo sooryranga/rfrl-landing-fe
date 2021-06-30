@@ -1,18 +1,22 @@
 <template>
   <div id="footer">
     <div class="nav-links-container">
-      <nav-link>
-        <div class="nav-links">
-          <router-link to="/terms-of-service"
-            v-slot="{href, navigate, isActive}"
-          >
-            <nav-link :navigate="navigate" :href="href" :active="isActive" :withLine="false">
-              Terms Of Service
-            </nav-link>
-          </router-link>
-        </div>
-      </nav-link>
-      <nav-link>Privacy Policy</nav-link>
+      <div class="nav-links">
+        <router-link to="/terms-of-service"
+          v-slot="{href, navigate, isActive}"
+        >
+          <nav-link :navigate="navigate" v-bind:href="href" :active="isActive" :withLine="false">
+            Terms Of Service
+          </nav-link>
+        </router-link>
+      </div>
+       <router-link to="/terms-of-service"
+          v-slot="{href, navigate, isActive}"
+        >
+        <nav-link :navigate="navigate" v-bind:href="href" :active="isActive" :withLine="false">
+          Privacy Policy
+        </nav-link>
+       </router-link>
     </div>
     <div id="policy" class="flex-item">
     </div>
