@@ -10,7 +10,7 @@
           </nav-link>
         </router-link>
       </div>
-       <router-link to="/terms-of-service"
+       <router-link to="/privacy-policy"
           v-slot="{href, navigate, isActive}"
         >
         <nav-link :navigate="navigate" v-bind:href="href" :active="isActive" :withLine="false">
