@@ -63,6 +63,9 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  border: 5px solid white;
+  box-shadow: 0 0 0 0.5rem rgba(256,256,256,0.1);
+  border-radius: 1rem;
   margin-left: auto;
   margin-right: auto;
   max-width: 100%;
