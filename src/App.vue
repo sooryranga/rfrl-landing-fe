@@ -99,17 +99,15 @@ body{
   color: var(--clr-primary)
 }
 
-#log{
+#logo{
   margin-left: 1rem;
 }
 
 .logo-text{
-  letter-spacing: 2px;
   font-size: 2.5rem;
   text-decoration:none;
   color: white;
-  font-family: 'Orbitron', sans-serif;
-  font-weight: 700;
+  font-weight: 400;
 }
 .logo-text:hover{
   color: white;

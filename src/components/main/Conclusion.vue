@@ -15,7 +15,7 @@
 
 <style scoped>
 .dark-color{
-  color: var(--clr-primary);
+  color: var(--clr-accent);
 }
 
 .section{
@@ -24,7 +24,7 @@
 }
 
 #title {
-  color: var(--clr-primary);
+  color: var(--clr-accent);
   font-size: 2.5rem;
   font-weight: 400;
 }
