@@ -1,7 +1,7 @@
 <template>
   <div id="footer">
     <div class="nav-links-container">
-      <div class="nav-links">
+      <div class="footer-links">
         <router-link to="/terms-of-service"
           v-slot="{href, navigate, isActive}"
         >
@@ -10,7 +10,7 @@
           </nav-link>
         </router-link>
       </div>
-      <div class="nav-links">
+      <div class="footer-links">
         <router-link to="/privacy-policy"
             v-slot="{href, navigate, isActive}"
           >
@@ -19,8 +19,6 @@
           </nav-link>
         </router-link>
       </div>
-    </div>
-    <div id="policy" class="flex-item">
     </div>
   </div>
 </template>
@@ -37,30 +35,36 @@ export default {
 <style scoped>
 #footer{
   background-color: var(--clr-primary);
-  display:flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  align-items: center;
   flex: 0 0 2rem;
-}
-
-.flex-item{
-  flex:0 0 50%;
 }
 
 .nav-links-container {
   display: flex;
+  flex-direction: row;
+  width: 100%;
+  height:100%;
   justify-content: flex-end;
 }
 
-.nav-links {
-  margin-left: 2rem;
-  margin-right: 2rem;
-  padding-top: 0.1rem;
-  padding-bottom:0.1rem;
+.footer-links {
   font-size: 0.8rem;
+  margin-right: 2rem;
   vertical-align: middle;
 }
 
+
+@media only screen and (max-width: 653px) {
+  .nav-links-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height:100%;
+    justify-content: space-evenly;
+  }
+  .footer-links{
+    font-size: 0.8rem;
+    vertical-align: middle;
+    margin-right: 0;
+  }
+}
 </style>
