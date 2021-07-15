@@ -3,7 +3,11 @@
     <h2 id="section-title">Want your dream job?</h2>
     <div class="row mt-4 mb-4">
       <div class="col">
-        <img src="@/assets/pexels-freestocksorg-122477.jpg" class="feature-img"/>
+        <div class="subsection flex-container">
+          <div class="my-auto">
+            <img src="@/assets/pexels-freestocksorg-122477.jpg" class="feature-img"/>
+          </div>
+        </div>
       </div>
       <div class="col">
         <div class="subsection flex-container">
@@ -31,12 +35,20 @@
         </div>
       </div>
       <div class="col">
-        <img src="@/assets/pexels-fauxels-3184460.jpg" class="feature-img"/>
+        <div class="subsection flex-container">
+          <div class="my-auto">
+            <img src="@/assets/pexels-fauxels-3184460.jpg" class="feature-img"/>
+          </div>
+        </div>
       </div>
     </div>
     <div class="row">
       <div class="col">
-        <img src="@/assets/pexels-ketut-subiyanto-4560150.jpg" class="feature-img"/>
+        <div class="subsection flex-container">
+          <div class="my-auto">
+            <img src="@/assets/pexels-ketut-subiyanto-4560150.jpg" class="feature-img"/>
+          </div>
+        </div>
       </div>
       <div class="col">
         <div class="subsection flex-container">
