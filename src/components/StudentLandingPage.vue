@@ -2,7 +2,7 @@
   <div class="scrolable-full">
     <div :style="mainContainer">
       <div class="h-100 container-xl">
-        <div class="h-100 w-100 flex-container">
+        <div id="text-container" class="h-100 w-100">
           <div class="left-side my-auto p-5 white-overlay text-container">
             <h1 id="title"><span class="logo">rfrl</span> helps professionals land their dream job</h1>
             <p id="subtitle">Get referred and improve your chances by 20 folds</p>
@@ -51,6 +51,12 @@ export default {
 
 .left-side{
   margin-left:1rem;
+}
+
+#text-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 #cta{
