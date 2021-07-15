@@ -4,7 +4,7 @@
     <p id="section-description">
       We match employees with their future co-workers
     </p>
-    <div class="w-100 flex-container">
+    <div class="wrapper-grid">
       <div id="direct-messaging" class="feature">
         <div class="my-2 w-100">
           <img src="@/assets/practice-console.png" class="feature-img"/>
@@ -38,10 +38,15 @@
   justify-content:space-around;
 }
 
+.wrapper-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 30%);
+  justify-content: space-around;
+}
+
 #section{
   background-color: var(--clr-primary);
   padding-top: 4rem;
-  height: 30rem;
 }
 
 #section-title {
@@ -71,16 +76,18 @@
   max-width: 100%;
 }
 
-.feature{
-  flex: 0 0 31%;
-  height: 15rem;
-}
-
 .feature-title{
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 1rem;
+  margin-top: 2rem;
   color: white
+}
+
+@media only screen and (max-width: 653px) {
+  .wrapper-grid {
+    grid-template-columns: repeat(auto-fit, 90%);
+  }
+  .feature{
+    margin-bottom: 1rem;
+  }
 }
 </style>

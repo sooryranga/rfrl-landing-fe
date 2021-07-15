@@ -141,7 +141,7 @@ body{
   display:flex;
   flex-direction:column;
   flex-wrap: nowrap;
-  overflow: auto;
+  overflow-y: auto;
 }
 
 #content-view{
