@@ -1,7 +1,7 @@
 <template>
   <div class="container-xl flex-container column-flex p-0 mt-5">
     <div class="text-center">
-      <h1 id="section-title"> Terms Of Service </h1>
+      <h1 id="section-title"> Terms of Service </h1>
       <p id="section-description"> Work in progress </p>
     </div>
   </div>

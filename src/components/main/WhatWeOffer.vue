@@ -82,7 +82,7 @@
   color: white
 }
 
-@media only screen and (max-width: 653px) {
+@media (max-width: 653px) {
   .wrapper-grid {
     grid-template-columns: repeat(auto-fit, 90%);
   }

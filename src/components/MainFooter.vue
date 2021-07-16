@@ -6,7 +6,7 @@
           v-slot="{href, navigate, isActive}"
         >
           <nav-link :navigate="navigate" v-bind:href="href" :active="isActive" :withLine="false">
-            Terms Of Service
+            Terms of Service
           </nav-link>
         </router-link>
       </div>
@@ -53,7 +53,7 @@ export default {
 }
 
 
-@media only screen and (max-width: 653px) {
+@media (max-width: 653px) {
   .nav-links-container{
     display: flex;
     flex-direction: row;
