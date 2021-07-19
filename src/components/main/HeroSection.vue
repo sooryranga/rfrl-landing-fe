@@ -4,10 +4,16 @@
       <div id="main-container" class="h-100 flex-container flex-item p-4">
         <div class="my-auto">
           <h1 id="title" class="my-auto">Land your dream job through referrals</h1>
+          <h2 id="sub-title" class="my-auto">Employee Referrals are 4x more likely to be hired.
+          <!-- eslint-disable-next-line vue/max-len -->
+          <a class="no-style-link" href="https://www.linkedin.com/pulse/employee-referral-statistics-you-need-know-2020-mike-stafiej?trk=public_profile_article_view">
+            <sup>1</sup>
+          </a>
+          </h2>
           <form class="form-inline">
-            <input type="email" id="email" placeholder="Enter email" name="email">
+            <input type="email" id="email" placeholder="Enter email" name="email" v-model="email">
             <button id="main-button" class="primary-btn primary-btn-dark" type="submit">
-              Start free trail
+              <a class="no-style-link" :href="url">Start free trail</a>
             </button>
           </form>
         </div>
@@ -23,8 +29,19 @@
 </template>
 
 <script>
-export default {
+import {getEmailSignUpURL} from '@/conf';
 
+export default {
+  data: function() {
+    return {
+      email: '',
+    };
+  },
+  computed: {
+    url() {
+      return getEmailSignUpURL(this.email);
+    },
+  },
 };
 </script>
 
@@ -43,6 +60,14 @@ export default {
   max-width: 26ch;
   font-size: 3rem;
   font-weight: 400;
+}
+
+#sub-title{
+  color: var(--clr-gray-4);
+  max-width: 50ch;
+  padding: 3px;
+  font-size: 0.9rem;
+  font-weight: 300;
 }
 
 .logo{
@@ -77,6 +102,11 @@ export default {
   padding-top:0.75rem;
   padding-bottom: 0.75rem;
   box-shadow:0 5px 15px 0 rgba(0,0,0,0.15);
+}
+
+.no-style-link {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
 }
 
 .flex-item{
