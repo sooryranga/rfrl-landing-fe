@@ -71,15 +71,22 @@ export default {
 #section-description{
   color: white;
   margin-left: 2rem;
-}
-
-.section-padding{
-  padding-left: 20px;
+  margin-right: 2rem;
 }
 
 .wrapper-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, 18rem);
   justify-content: space-between;
+  text-align: center;
+}
+
+@media (max-width: 574px) {
+  .wrapper-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 100%);
+    justify-content: space-between;
+    text-align: center;
+  }
 }
 </style>

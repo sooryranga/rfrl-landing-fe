@@ -36,6 +36,5 @@ export default {
 
 .card-body {
   font-size: 0.9rem;
-  margin-left: 1rem;
 }
 </style>
