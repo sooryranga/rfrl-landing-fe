@@ -10,21 +10,20 @@
         <p>
           You can talk to clients directly to figure
           out the rate for tutoring and validating
-          the client for the job
+          the client for the job.
         </p>
       </card-item>
       <card-item>
         <h5 class="benefit-name">Referral Bonuses</h5>
         <p>
-          Most companies give out fair bonus for finding talent
+          Most companies give out fair bonus for finding talent.
         </p>
       </card-item>
       <card-item>
         <h5 class="benefit-name">Pick and choose your co-workers</h5>
         <p>
           You spend more time at work than with your family
-          so having the ability to pick and choose y
-          our co-worker is highly valuable
+          so having the ability to pick and choose your co-worker is highly valuable.
         </p>
       </card-item>
       <card-item>

@@ -104,11 +104,6 @@ export default {
   box-shadow:0 5px 15px 0 rgba(0,0,0,0.15);
 }
 
-.no-style-link {
-  color: inherit; /* blue colors for links too */
-  text-decoration: inherit; /* no underline */
-}
-
 .flex-item{
   flex: 1 1 50%;
 }

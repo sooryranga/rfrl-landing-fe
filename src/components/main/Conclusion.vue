@@ -2,15 +2,24 @@
   <div class="w-100 section flex-container">
     <div class="my-auto w-100">
       <h1 id="title">Accelerate your career with <span class="logo-text dark-color">rfrl</span></h1>
-      <p>Get referral to your dream job and excell in life</p>
+      <p>Get referral to your dream job and excell in life.</p>
       <button id="main-button" class="primary-btn primary-btn-dark" type="submit">
-        Start free trail
+         <a class="no-style-link" :href="SignUpURL">Start free trail</a>
       </button>
     </div>
   </div>
 </template>
 
 <script>
+import {SIGN_UP_URL} from '@/conf';
+
+export default {
+  data() {
+    return {
+      SignUpURL: SIGN_UP_URL,
+    };
+  },
+};
 </script>
 
 <style scoped>
