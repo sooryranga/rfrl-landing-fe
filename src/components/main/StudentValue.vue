@@ -6,9 +6,9 @@
       <div class="my-auto right-text feature-text">
         <h3 class="subsection-title">Skip The Line</h3>
         <p>
-          Typical job posting for FANG companies get over 500 applicants.
-          How will you standout out of 100s of engineers? You can, by getting referred by
-          veteran from the company.
+          Typical job posting for Big Tech companies get over 500 applicants.
+          How would you stand apart from 100s of job applicants?
+          You can, by getting referred by current employees from the company.
         </p>
       </div>
     </div>
@@ -17,7 +17,7 @@
         <h3 class="subsection-title">Review Your Skills</h3>
         <p>
           You need to pass the interview to get the job. What better way to
-          practice interviewing than with the person who passed the interview.
+          practice interviewing than with the person who passed the interview?
         </p>
       </div>
       <img src="@/assets/pexels-fauxels-3184460.jpg" class="feature-img"/>
@@ -25,11 +25,10 @@
     <div class="subsection mb-4">
       <img src="@/assets/pexels-ketut-subiyanto-4560150.jpg" class="feature-img"/>
       <div class="my-auto right-text feature-text">
-        <h3 class="subsection-title">Stack Your Resume</h3>
+        <h3 class="subsection-title">Improve Your Resume</h3>
         <p>
-          Within the first two session, referrer would let you know whether you would be qualified for referral.
-          If you aren't, we can help stack your resume by working together on a open source project together
-          setting you up for success next time around.
+          Within the first two session, referrer would let you know whether you qualify for referral.
+          Otherwise, we can help improve your resume by working on a open source project together.
         </p>
       </div>
     </div>
