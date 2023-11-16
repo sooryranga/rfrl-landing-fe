@@ -50,6 +50,10 @@ export default {
 @import './css/color.css';
 @import './css/tooltip.css';
 
+body{
+  background-color: #F2F7F2;
+}
+
 #app {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
