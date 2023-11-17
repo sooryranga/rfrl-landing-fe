@@ -9,7 +9,6 @@
   --dark-sienna: hsla(344, 59%, 17%, 1);
   --olive-green: hsla(62, 41%, 57%, 1);
   --mint-cream: hsla(120, 24%, 96%, 1);
-  --khaki-web: hsla(29, 21%, 90%, 1);
   --teal-blue: hsla(194, 37%, 37%, 1);
 
 
@@ -25,14 +24,18 @@
   --clr-gray-9:#fcfcfc;
 
 
-  --clr-primary-darkest: #1c070d;
-  --clr-primary-darker:#2A0B13;
-  --clr-primary-dark:#380E1A;
-  --clr-primary: #461220;
-  --clr-primary-light: #7C3FFF;
-  --clr-primary-lighter: #915FFF;
-  --clr-primary-lightest: #A77FFF;
-  --clr-primary-bg-color:#f9f7ff;
+  --clr-primary-darkest: hsla(344, 59%, 3%, 1);
+  --clr-primary-darker:hsla(344, 59%, 7%, 1);
+  --clr-primary-dark:hsla(344, 59%, 13%, 1);
+  --clr-primary: hsla(344, 59%, 17%, 1);
+  --clr-primary-light: hsla(344, 59%, 22%, 1);
+  --clr-primary-lighter: hsla(344, 59%, 27%, 1);
+  --clr-primary-lightest: hsla(344, 59%, 32%, 1);
+  --clr-primary-bg-color:hsla(344, 59%, 37%, 1);
+
+  --clr-background-dark: hsla(29, 21%, 80%, 1);
+  --clr-background: hsla(29, 21%, 85%, 1);
+  --clr-background-light: hsla(29, 21%, 90%, 1);
 
   --clr-success-darkest: #00723B;
   --clr-success-darker: #008E49;

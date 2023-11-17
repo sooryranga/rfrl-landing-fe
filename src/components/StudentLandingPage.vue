@@ -1,7 +1,7 @@
 <template>
   <div class="scrolable-full">
     <div :style="mainContainer">
-      <div class="h-100 container-md">
+      <div class="h-100 container-xl">
         <div class="h-100 w-100 flex-container">
           <div class="left-side my-auto p-5 white-overlay text-container">
             <h1 id="title"><span class="logo">rfrl</span> helps professionals land their dream job</h1>
@@ -43,10 +43,6 @@ export default {
 
 .white-overlay{
   background-color: rgba(255, 255, 255, 0.85);
-}
-
-.flex-container{
-  display:flex;
 }
 
 .text-container{
