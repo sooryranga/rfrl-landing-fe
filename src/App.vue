@@ -7,7 +7,7 @@
       ">
         <div class="container-xl nav-container">
           <div id="logo">
-            <router-link to="/" id="logo-text">rfrl</router-link>
+            <router-link to="/" class="logo-text">rfrl</router-link>
           </div>
           <div class="nav-links-with-profile">
             <div class="nav-links">
@@ -25,8 +25,11 @@
           </div>
         </div>
       </nav>
-      <div id="content" class="w-100 flex-item-grow">
-        <router-view :key="routerViewKey"/>
+      <div class="scrolable-full w-100 flex-item-grow">
+        <div id="content" class="w-100">
+          <router-view :key="routerViewKey"/>
+        </div>
+        <main-footer/>
       </div>
     </div>
   </div>
@@ -34,10 +37,11 @@
 
 <script>
 import NavLink from '@/components/NavLink.vue';
+import MainFooter from '@/components/MainFooter.vue';
 
 export default {
   name: 'App',
-  components: {NavLink},
+  components: {NavLink, MainFooter},
   computed: {
     routerViewKey() {
       return this.$route.fullPath.split('/').slice(0, 2).join('/');
@@ -94,17 +98,20 @@ body{
   color: var(--clr-primary)
 }
 
-#logo {
+#log{
   margin-left: 1rem;
 }
 
-#logo-text{
+.logo-text{
   letter-spacing: 2px;
   font-size: 2.5rem;
   text-decoration:none;
   color: white;
   font-family: 'Orbitron', sans-serif;
   font-weight: 700;
+}
+.logo-text:hover{
+  color: white;
 }
 
 .to-right{

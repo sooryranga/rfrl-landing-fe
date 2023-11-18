@@ -7,7 +7,7 @@
     @mouseover="hover = true">
     <div class="link-container">
       <div class="name"><slot></slot></div>
-      <transition name="slide-fade">
+      <transition v-if="withLine" name="slide-fade">
         <div v-if="show" class="line"/>
       </transition>
     </div>
@@ -29,6 +29,11 @@ export default {
     navigate: {
       type: Function,
       required: true,
+    },
+    withLine: {
+      type: Boolean,
+      required: false,
+      default: true,
     },
   },
   computed: {

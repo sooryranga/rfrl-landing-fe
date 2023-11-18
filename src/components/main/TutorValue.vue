@@ -1,8 +1,8 @@
 <template>
   <div class="row w-100" id="section">
     <h2 id="section-title" class="section-padding">Why should you refer</h2>
-    <p id="section-desc" class="section-padding">
-      You can earn compensation in hourly rate as well as referral bonus from repective company
+    <p id="section-description" class="section-padding">
+      You can earn compensation and provide value to your company
     </p>
     <div class="wrapper-grid">
       <card-item>
@@ -38,7 +38,7 @@
 </template>
 
 <script>
-import CardItem from './CardItem.vue';
+import CardItem from '@/components/CardItem.vue';
 export default {
   components: {CardItem},
   data() {
@@ -63,10 +63,12 @@ export default {
   margin-bottom: 1rem;
   color: var(--clr-gray-9);
   max-width: 26ch;
+  margin-left: 1rem;
 }
 
-#section-desc{
+#section-description{
   color: var(--clr-gray-7);
+  margin-left: 1rem;
 }
 
 .section-padding{

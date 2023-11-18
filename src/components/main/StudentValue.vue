@@ -44,7 +44,8 @@
             <h3 class="subsection-title">Stack your resume</h3>
             <p class="subsection-description">
               Within the first two session, referrer would let you know whether you would be qualified for referral.
-              If you aren't, we can help stack your resume by working together on a open source project together.
+              If you aren't, we can help stack your resume by working together on a open source project together
+              setting you up for success next time around.
             </p>
           </div>
         </div>
