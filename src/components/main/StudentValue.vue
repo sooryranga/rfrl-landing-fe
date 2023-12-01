@@ -11,8 +11,8 @@
             <h3 class="subsection-title">Skip the line</h3>
             <p class="subsection-description">
               Typical job posting for FANG companies get over 500 applicants.
-              How will standout out of 100s of engineers. You can by getting referred to
-              the job posting.
+              How will you standout out of 100s of engineers? You can, by getting referred by
+              veteran from the company.
             </p>
           </div>
         </div>

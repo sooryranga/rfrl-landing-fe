@@ -53,9 +53,10 @@ export default {
 <style>
 @import './css/color.css';
 @import './css/tooltip.css';
+@import './css/button.css';
 
 body{
-  background-color: #F2F7F2;
+  background-color: #f2f7f285;
 }
 
 #app {
@@ -70,7 +71,7 @@ body{
 }
 
 #topbar{
-  background-color: var(--clr-primary-dark);
+  background-color: var(--clr-primary);
 }
 
 .nav-container {

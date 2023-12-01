@@ -1,5 +1,5 @@
 <template>
-  <div class="container-xl flex-container column-flex">
+  <div class="container-xl flex-container column-flex p-0">
     <hero-section/>
     <what-we-offer/>
     <tutor-value/>

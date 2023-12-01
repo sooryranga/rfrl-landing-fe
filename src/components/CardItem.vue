@@ -13,14 +13,14 @@ export default {
 
 <style scoped>
 .card {
-  --card-bg-clr: var(--clr-gray-9);
+  --card-bg-clr: white;
   --card-shdw-clr: var(--clr-gray-7);
-  --card-button-clr: var(--clr-gray-9);
-  --card-button-bg-clr: var(--clr-primary-light);
-  --card-button-bg-hover-clr: var(--clr-primary-dark);
+  --card-button-clr: white;
+  --card-button-bg-clr: var(--clr-primary);
+  --card-button-bg-hover-clr: var(--clr-primary-darker);
 
   background-color: transparent;
-  color: var(--clr-gray-9);
+  color: white;
   position: relative;
   margin: 0.5rem;
   border: none;
