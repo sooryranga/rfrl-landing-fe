@@ -16,6 +16,10 @@ const routes = [
     path: '/terms-of-service',
     component: () => import('@/components/TermsOfService.vue'),
   },
+  {
+    path: '/privacy-policy',
+    component: () => import('@/components/PrivacyPolicy.vue'),
+  },
 ];
 
 const router = new VueRouter({
