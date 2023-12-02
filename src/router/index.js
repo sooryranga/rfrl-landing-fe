@@ -12,6 +12,10 @@ const routes = [
     path: '/want-referral',
     component: () => import('@/components/StudentLandingPage.vue'),
   },
+  {
+    path: '/terms-of-service',
+    component: () => import('@/components/TermsOfService.vue'),
+  },
 ];
 
 const router = new VueRouter({
