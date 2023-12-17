@@ -56,7 +56,7 @@ export default {
 
 #section{
   background-color: var(--clr-primary);
-  padding-top: 6rem;
+  padding-top: 4rem;
 }
 
 #section-title {
