@@ -10,13 +10,15 @@
           </nav-link>
         </router-link>
       </div>
-       <router-link to="/privacy-policy"
-          v-slot="{href, navigate, isActive}"
-        >
-        <nav-link :navigate="navigate" v-bind:href="href" :active="isActive" :withLine="false">
-          Privacy Policy
-        </nav-link>
-       </router-link>
+      <div class="nav-links">
+        <router-link to="/privacy-policy"
+            v-slot="{href, navigate, isActive}"
+          >
+          <nav-link :navigate="navigate" v-bind:href="href" :active="isActive" :withLine="false">
+            Privacy Policy
+          </nav-link>
+        </router-link>
+      </div>
     </div>
     <div id="policy" class="flex-item">
     </div>
@@ -40,7 +42,7 @@ export default {
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
-  height: 3rem;
+  flex: 0 0 2rem;
 }
 
 .flex-item{
@@ -55,6 +57,9 @@ export default {
 .nav-links {
   margin-left: 2rem;
   margin-right: 2rem;
+  padding-top: 0.1rem;
+  padding-bottom:0.1rem;
+  font-size: 0.8rem;
   vertical-align: middle;
 }
 

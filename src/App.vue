@@ -26,11 +26,11 @@
         </div>
       </nav>
       <div class="scrolable-full w-100 flex-item-grow">
-        <div id="content" class="w-100">
-          <router-view :key="routerViewKey"/>
+        <div id="content" class="w-100 h-100">
+          <router-view id="content-view" :key="routerViewKey"/>
+          <main-footer/>
         </div>
       </div>
-      <main-footer/>
     </div>
   </div>
 </template>
@@ -137,6 +137,17 @@ body{
 .flex-item-grow{
   flex: 1;
   min-height: 0; /* new */
+}
+
+#content{
+  display:flex;
+  flex-direction:column;
+  flex-wrap: nowrap;
+  overflow: auto;
+}
+
+#content-view{
+  flex:1 0;
 }
 
 .drop-down-router-links {
