@@ -78,7 +78,7 @@ export default {
 
 #section-title {
   margin-bottom: 1rem;
-  color: var(--clr-gray-1);
+  color: var(--clr-gray-2);
   text-align: center;
 }
 
