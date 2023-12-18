@@ -152,7 +152,7 @@ body{
   display: none;
 }
 
-@media only screen and (max-width: 653px) {
+@media (max-width: 653px) {
   .nav-links {
     display: none;
   }
