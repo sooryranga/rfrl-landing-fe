@@ -76,7 +76,7 @@ export default {
 }
 
 .logo{
-  font-family: 'Orbitron', sans-serif;
+  font-family: 'roboto', sans-serif;
   color: var(--clr-gray-2);
   font-size: 4rem;
 }
