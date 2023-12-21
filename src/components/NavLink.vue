@@ -28,7 +28,8 @@ export default {
     },
     navigate: {
       type: Function,
-      required: true,
+      required: false,
+      default: () => {},
     },
     withLine: {
       type: Boolean,

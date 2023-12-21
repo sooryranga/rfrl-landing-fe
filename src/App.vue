@@ -11,16 +11,12 @@
           </div>
           <div class="nav-links-with-profile">
             <div class="nav-links">
-              <router-link to="/chat"
-                v-slot="{href, navigate, isActive}"
-              >
-                <nav-link :navigate="navigate" v-bind:href="href" :active="isActive">
-                  Login
-                </nav-link>
-              </router-link>
+              <nav-link v-bind:href="SignUpURL" :active="false">
+                Login
+              </nav-link>
             </div>
             <div class="align-items-center">
-              <router-link class="btn btn-light mr-2" to="/signup">Sign Up</router-link>
+              <a :href="SignUpURL" class="btn btn-light mr-2">Sign Up</a>
             </div>
           </div>
         </div>
@@ -38,6 +34,7 @@
 <script>
 import NavLink from '@/components/NavLink.vue';
 import MainFooter from '@/components/MainFooter.vue';
+import {SIGN_UP_URL} from '@/conf';
 
 export default {
   name: 'App',
@@ -46,6 +43,11 @@ export default {
     routerViewKey() {
       return this.$route.fullPath.split('/').slice(0, 2).join('/');
     },
+  },
+  data() {
+    return {
+      SignUpURL: SIGN_UP_URL,
+    };
   },
 };
 </script>
