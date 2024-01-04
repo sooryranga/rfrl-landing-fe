@@ -4,7 +4,7 @@
       <h1 id="title">Accelerate your career with <span class="logo-text dark-color">rfrl</span></h1>
       <p>Get referral to your dream job and excell in life.</p>
       <button id="main-button" class="primary-btn primary-btn-dark" type="submit">
-         <a class="no-style-link" :href="SignUpURL">Start free trail</a>
+         <a class="no-style-link" :href="SignUpURL">Start free trial</a>
       </button>
     </div>
   </div>

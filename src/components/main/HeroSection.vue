@@ -13,7 +13,7 @@
           <form class="form-inline">
             <input type="email" id="email" placeholder="Enter email" name="email" v-model="email">
             <button id="main-button" class="primary-btn primary-btn-dark" type="submit">
-              <a class="no-style-link" :href="url">Start free trail</a>
+              <a class="no-style-link" :href="url">Start free trial</a>
             </button>
           </form>
         </div>
