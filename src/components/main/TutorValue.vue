@@ -8,9 +8,9 @@
       <card-item>
         <h5 class="benefit-name">Hourly Compensation</h5>
         <p>
-          You can talk to clients directly to figure
+          You can talk to applicants directly to figure
           out the rate for tutoring and validating
-          the client for the job.
+          the applicant for referral.
         </p>
       </card-item>
       <card-item>

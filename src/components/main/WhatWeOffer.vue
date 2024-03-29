@@ -20,7 +20,7 @@
       <div id="practice" class="feature">
         <div class="my-2 w-100">
           <img src="@/assets/profile-section.png" class="feature-img"/>
-          <h5 class="feature-title">Choose Your Client</h5>
+          <h5 class="feature-title">Choose Your Applicant to Refer</h5>
         </div>
       </div>
     </div>
